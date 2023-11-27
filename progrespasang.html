@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PEMESANAN PAKET INDIHOME</title>
+    <link href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>
+            <nav class="navbar navbar-expand-lg shadow-sm">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo_indiHome.png" style="margin-top: 15px; margin-bottom: 13px; width: 149px;">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <a href="#"><div class="p-2 g-col-6"><button type="button" class="btn btn-dark" style="background-color: #374572;">Pesanan Saya</button></div></a>
+                        <a href="login.html"><div class="p-2 g-col-6"><button type="button" class="btn btn-warning">Login</button></div></a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <div>
+                <ul class="nav nav-pills nav justify-content-center" style="margin-top: 10px;">
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="registrasi.html" aria-current="page" >Registrasi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="verifikasi.html">Verifikasi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="progrespasang.html" style="background-color: #374572; color: #fff;">Inprogres Pasang</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="selesai.html">Selesai</a>
+                    </li>
+                  </ul>
+              </div>
+              
+
+            <section class="jumbotron" style="background: #fff;">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col fw-bold">
+                          <h1>InProgres Pasang</h1>
+                        </div>
+                      </div>
+                    <div class="row" style="margin-top: 30px;">
+                      <div class="col">
+                        <form>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold"><h3>Data Teknisi</h3></label>
+                            </div>
+                            <div class="mb-4">
+                              <input type="text" class="form-control form-control-lg" id="nama_teknisi" aria-describedby="nama_teknisiHelp" placeholder="Nama Teknisi" readonly>
+                            </div>
+                            <div class="mb-4">
+                                <input type="number" class="form-control  form-control-lg" id="no_telepon_teknisi" aria-describedby="no_telepon_teknisiHelp" placeholder="Nomor Telepon" readonly>
+                            </div>
+                            <div class="mb-4">
+                                <input type="number" class="form-control  form-control-lg" id="nip" aria-describedby="nipHelp" placeholder="NIP" readonly>
+                            </div>
+                          </form>
+                      </div>
+                      <div class="col">
+                        <div class="mb-4">
+                            <label class="form-label fw-bold"><h3>Alamat Pemasangan</h3></label>
+                        </div>
+                        <div class="mb-4">
+                          <input type="kota" class="form-control form-control-lg" id="kota" aria-describedby="kotaHelp" placeholder="Nama Kota" readonly>
+                        </div>
+                        <div class="mb-4">
+                            <input type="kecamatan" class="form-control  form-control-lg" id="kecamatan" aria-describedby="emailHelp" placeholder="Nama Kecamatan" readonly>
+                        </div>
+                        <div class="mb-4">
+                            <input type="jalan" class="form-control  form-control-lg" id="jalan" aria-describedby="emailHelp" placeholder="Nama Jalan" readonly>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <div class="container">
+                <footer class="py-3">
+                    <h4 class="text-dark text-center">Indihome 2023</h4>
+                    <p class="text-center text-body-dark">Jl. Buah Batu Regency, Kujangsari, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40287</p>
+                </footer>
+            </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
